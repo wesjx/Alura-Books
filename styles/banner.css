@@ -1,0 +1,65 @@
+.banner {
+    background: var(--color-degrade-blue);
+    color: var(--color-white);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-text {
+    margin: 1em 0 ;
+    font-weight: 500;
+}
+
+.banner-search {
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner-search::placeholder {
+    font-family: var(font-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-white);
+    background: url(../assets/Vector.svg) no-repeat;
+    background-position:1.5em;
+
+}
+
+@media screen and (min-width:1024px) {
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-search {
+        width: 50%;
+    }
+
+    .banner-search::placeholder{
+        background-position: 7em;
+    }
+
+}
+
+@media screen and (min-width:1728px) {
+    .banner-search{
+        width: 35%;
+    }
+
+    .banner-search::placeholder{
+        background-position: 10em;
+    }
+
+    .banner{
+        padding: 6em 0;
+    }
+}

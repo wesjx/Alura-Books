@@ -1,0 +1,28 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carousel.css);
+@import url(styles/topics.css);
+@import url(styles/newsletter.css);
+@import url(styles/footer.css);
+
+:root {
+    --color-background: #EBECEE;
+    --color-white: #ffffff;
+    --color-orange: #EB900E;
+    --color-degrade-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal: "Poppins";
+    --color-blue:  #002F52;
+    --color-orange-hover: #cd7d0c;
+    --font-second: "Josefin sans";
+    --color-black: #000000;
+    --color-grey: #474646;
+    --color-grey-bright: #858585;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
